@@ -1,0 +1,25 @@
+.rating-item2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+  justify-content: flex-start;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.active-rating {
+  color: #0967d2;
+}
+.salary-range-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .salary-range-container {
+    width: 25%;
+    max-width: 280px;
+    min-width: 240px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
